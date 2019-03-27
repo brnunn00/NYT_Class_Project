@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>New York Times Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+        <div class="container">
+
+              <nav class="navbar navbar-primary bg-primary">
+                <h2>New York Times</h2>
+              </nav>
+<div class="form">
+    <h3>Search Parameters</h3>
+    <div class="input-group" id="search">
+        <div class="input-group-prepend">
+            <span class="input-group-text">Search Term</span>
+        </div>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+    </div>
+    <div class="input-group">
+            <div class="input-group-prepend" id="records">
+                <span class="input-group-text">Number of Records to Retrieve</span>
+            </div>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+    <div class="input-group">
+            <div class="input-group-prepend" id="start-year">
+                <span class="input-group-text">Start Year (Optional):</span>
+            </div>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+    <div class="input-group">
+            <div class="input-group-prepend" id="end-year">
+                <span class="input-group-text">End Year (Optional):</span>
+            </div>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+
+        <button type="button" class="btn btn-light">Search</button>
+        <button type="button" class="btn btn-light">Clear Results</button>
+         </div>
+</div>   
+    <script src="./assets/javascript/jquery.js"></script>
+    <script src="./assets/javascript/app.js"></script>
+</body>
+</html>
